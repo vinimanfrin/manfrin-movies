@@ -1,10 +1,14 @@
+import { Outlet } from 'react-router-dom'
 import './App.css'
+import NavBar from './components/NavBar'
 
 function App() {
   return (
-    <>
-      <h1>Manfrin Movies</h1>
-    </>
+    <div className="App">
+      <NavBar />
+      <h2>Manfrin Movies</h2>
+      <Outlet />
+    </div>
   )
 }
 
