@@ -1,3 +1,5 @@
+import "./MovieGrid.css";
+
 const Search = () => {
     return <h1>Search</h1>
 }
